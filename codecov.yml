@@ -1,0 +1,11 @@
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 0.5%
+    patch: off
+ignore:
+  - "stix_shifter/scripts/"  # ignore folders and all its contents
+comment:
+  require_changes: true
